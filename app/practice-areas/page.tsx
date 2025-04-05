@@ -313,7 +313,7 @@ export default function PracticeAreasPage() {
               Schedule a Consultation
             </Button>
             <Link href="/contact">
-              <Button size="lg" variant="outline" className="text-white border-white hover:bg-white/10">
+              <Button size="lg" variant="outline" className="text-black border-white hover:bg-white">
                 Contact Us
               </Button>
             </Link>

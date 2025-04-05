@@ -22,10 +22,10 @@ export default function AboutPage() {
         <div className="absolute inset-0 bg-gradient-to-r from-primary/90 to-primary/80 z-10"></div>
         <div className="absolute inset-0">
           <Image 
-            src="https://images.unsplash.com/photo-1575505586569-646b2ca898fc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2005&q=80" 
+            src="/images/9.jpg" 
             alt="Law firm building" 
             fill
-            style={{ objectFit: 'cover' }}
+            style={{ objectFit: 'fill' }}
             priority
           />
         </div>
@@ -56,7 +56,7 @@ export default function AboutPage() {
             </div>
             <div className="relative h-[500px] rounded-lg overflow-hidden shadow-xl">
               <Image 
-                src="https://images.unsplash.com/photo-1593115057322-e94b77572f20?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80" 
+                src="/images/5.jpg" 
                 alt="Law firm history" 
                 fill
                 style={{ objectFit: 'cover' }}
@@ -196,7 +196,7 @@ export default function AboutPage() {
               Schedule a Consultation
             </Button>
             <Link href="/contact">
-              <Button size="lg" variant="outline" className="text-white border-white hover:bg-white/10">
+              <Button size="lg" variant="outline" className="text-black border-white hover:bg-white">
                 Contact Us
               </Button>
             </Link>

@@ -24,7 +24,7 @@ export default function Home() {
         <div className="absolute inset-0 bg-gradient-to-r from-primary/90 to-primary/80 z-10"></div>
         <div className="absolute inset-0">
           <Image 
-            src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" 
+            src="/images/4.jpg" 
             alt="Law firm building" 
             fill
             style={{ objectFit: 'cover' }}
@@ -162,14 +162,14 @@ export default function Home() {
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">Ready to Discuss Your Legal Needs?</h2>
           <p className="text-lg opacity-90 max-w-2xl mx-auto mb-8">
-            Our team of experienced attorneys is ready to help you navigate your legal challenges and achieve your goals.
+            Our team of experienced attorneys are ready to help you navigate your legal challenges and achieve your goals.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <Button size="lg" className="bg-accent hover:bg-accent/90 text-white">
               Schedule a Consultation
             </Button>
             <Link href="/contact">
-              <Button size="lg" variant="outline" className="text-white border-white hover:bg-white/10">
+              <Button size="lg" variant="outline" className="text-black border-white hover:bg-white">
                 Contact Us
               </Button>
             </Link>
