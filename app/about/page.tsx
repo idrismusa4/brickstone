@@ -11,7 +11,11 @@ import {
   ChevronRight,
   Briefcase,
   Landmark,
-  FileText
+  FileText,
+  MapPin,
+  Phone,
+  Mail,
+  Clock
 } from 'lucide-react'
 
 export default function AboutPage() {
@@ -66,8 +70,94 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Legal Coverage */}
+      {/* Office Location */}
       <section className="py-20 bg-gray-50">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4">Our Office</h2>
+            <div className="w-20 h-1 bg-accent mx-auto mb-6"></div>
+            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+              Located in the heart of Abuja&apos;s Central Business District
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+            <div className="space-y-8">
+              <div className="relative h-[300px] rounded-lg overflow-hidden shadow-xl">
+                <Image 
+                  src="/images/10.jpg"
+                  alt="Office exterior" 
+                  fill
+                  style={{ objectFit: 'cover' }}
+                />
+              </div>
+              <div className="relative h-[300px] rounded-lg overflow-hidden shadow-xl">
+                <Image 
+                  src="/images/2.jpg"
+                  alt="Office interior" 
+                  fill
+                  style={{ objectFit: 'cover' }}
+                />
+              </div>
+              <div className="relative h-[300px] rounded-lg overflow-hidden shadow-xl">
+                <Image 
+                  src="/images/8.jpg"
+                  alt="Office interior" 
+                  fill
+                  style={{ objectFit: 'cover' }}
+                />
+              </div>
+            </div>
+            <div className="flex flex-col justify-center space-y-8">
+              <div className="bg-white p-8 rounded-lg shadow-md">
+                <h3 className="text-2xl font-bold text-primary mb-6">Visit Our Office</h3>
+                <div className="space-y-4">
+                  <div className="flex items-start">
+                    <MapPin className="h-6 w-6 text-accent mr-3 mt-1" />
+                    <p className="text-gray-600">
+                      SUITE 027, RIGHT WING, TECHNICAL FLOOR, BOLINGO XPERIA HOTEL & TOWERS, PLOT 777, INDEPENDENT AVENUE, CENTRAL BUSINESS DISTRICT ABUJA
+                    </p>
+                  </div>
+                  <div className="flex items-center">
+                    <Phone className="h-6 w-6 text-accent mr-3" />
+                    <p className="text-gray-600">+234 8035239032 / +234 7057106732</p>
+                  </div>
+                  <div className="flex items-center">
+                    <Mail className="h-6 w-6 text-accent mr-3" />
+                    <p className="text-gray-600">soniegbaji@gmail.com</p>
+                  </div>
+                  <div className="flex items-center">
+                    <Clock className="h-6 w-6 text-accent mr-3" />
+                    <p className="text-gray-600">
+                      Monday - Friday: 9:00 AM - 5:00 PM<br />
+                      Saturday: 10:00 AM - 2:00 PM<br />
+                      Sunday: Closed
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="bg-white p-8 rounded-lg shadow-md">
+                <h3 className="text-2xl font-bold text-primary mb-6">Location Map</h3>
+                <div className="relative h-[300px] rounded-lg overflow-hidden">
+                  <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3940.1353383146366!2d7.4902863!3d9.0476123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104e0ba5c5936d27%3A0x5e7a7a2a9c0a3c1a!2sBolingo%20Hotels%20and%20Towers!5e0!3m2!1sen!2sng!4v1651234567890!5m2!1sen!2sng"
+                    width="100%"
+                    height="100%"
+                    style={{ border: 0 }}
+                    allowFullScreen
+                    loading="lazy"
+                    referrerPolicy="no-referrer-when-downgrade"
+                    className="absolute inset-0"
+                  ></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Legal Coverage */}
+      <section className="py-20 bg-white">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4">Our Areas of Legal Coverage</h2>
@@ -147,7 +237,7 @@ export default function AboutPage() {
       </section>
 
       {/* Our Approach */}
-      <section className="py-20 bg-white">
+      <section className="py-20 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4">Our Approach</h2>
@@ -172,7 +262,7 @@ export default function AboutPage() {
                 description: "Our firm is distinguished by excellence, integrity, and the depth and scope of its legal advisory services."
               }
             ].map((value, index) => (
-              <div key={index} className="bg-gray-50 p-8 rounded-lg">
+              <div key={index} className="bg-white p-8 rounded-lg shadow-md">
                 <div className="flex items-center mb-4">
                   <CheckCircle2 className="h-6 w-6 text-accent mr-3" />
                   <h3 className="text-xl font-bold text-primary">{value.title}</h3>

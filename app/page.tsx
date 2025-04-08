@@ -41,7 +41,9 @@ export default function Home() {
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-4">
               <Button size="lg" className="bg-accent hover:bg-accent/90 text-white">
+              <Link href={"https://wa.link/tyu0pt"} target='_blank'>
                 Free Consultation
+              </Link>
               </Button>
               <Button size="lg" variant="outline" className="text-black border-white hover:bg-accent hover:text-white">
                 Learn More

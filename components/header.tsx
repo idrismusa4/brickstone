@@ -93,7 +93,9 @@ export default function Header() {
 
           <div className="hidden md:block">
             <Button variant="default" className="bg-accent hover:bg-accent/90 text-white">
+            <Link href={"https://wa.link/tyu0pt"} target='_blank'>
               Free Consultation
+            </Link>
             </Button>
           </div>
 
@@ -126,7 +128,9 @@ export default function Header() {
                 </Link>
               ))}
               <Button variant="default" className="bg-accent hover:bg-accent/90 text-white w-full mt-4">
+              <Link href={"https://wa.link/tyu0pt"} target='_blank'>
                 Free Consultation
+              </Link>
               </Button>
             </div>
             
