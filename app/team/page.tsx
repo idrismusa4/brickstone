@@ -43,7 +43,8 @@ export default function TeamPage() {
     {
       id: '2',
       name: 'FELIX ELIJAH NNANNA ESQ',
-      title: '/images/felix.jpg',
+      title: 'Counsel in Chambers',
+      image: '/images/felix.jpg',
       shortBio: 'LLB (Hons) BL, LLM',
       fullBio: 'Felix Elijah Nnanna Esq gained a degree in Law (LL.B) from the University of Uyo and a B.L from the Nigerian Law School Lagos. He has a Masters in Law as well from Bayero University Kano at distinction level. He has an uncommon analytical mind and a tremendous ability to understand and attend to complex legal instructions. He is effective in time and resources management with a dogged determination to excel in his chosen field of specialization particularly his interest in commercial law and general litigation. In his over 10 years in practice, He has been involved in various forms of court room litigation, debt recovery, corporate practice and consultancy services. He has also been involved in various forms of alternative dispute resolutions.',
       education: [
