@@ -74,7 +74,8 @@ export default function TeamPage() {
     {
       id: '4',
       name: 'JUDITH IDIGO',
-      title: 'https://placehold.co/600x400?text=Hello+World',
+      title: 'Counsel in Chambers',
+      image: 'https://placehold.co/600x400?text=Hello+World',
       shortBio: 'LLB (Hons) BL, LLM',
       fullBio: 'Judith Idigo holds an LL.B Degree from Enugu State University and currently an LL.M student of the University of London. She has a keen interest in Telecommunication Law, Corporate Litigation, Debt Recovery and Banking Law, she has an uncommon analytical and a tremendous ability to understand and attend to complex task. She is effective in time and resource management with dogged determination to excel in law practice. She is a member of the Nigerian Bar Association, Unity Bar, Abuja.',
       education: [
