@@ -24,7 +24,7 @@ export default function TeamPage() {
       id: '1',
       name: 'N.S EGBAJI ESQ',
       title: 'Principal Solicitor',
-      image: 'https://images.unsplash.com/photo-1556157382-97eda2d62296?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      image: '/images/Egbaji .jpg',
       shortBio: 'LLB (Hons) BL, LLM, Ph.D (In view) Notary public',
       fullBio: 'Njang Sunday Egbaji is the Principal Solicitor of Brickstone Attorneys & Solicitors and he is responsible in directing the implementation of corporate policy and strategy of the firm. N.S Egbaji holds an LL.B from The University of Calabar and a B.L from the Nigeria Law School (Lagos). He holds an LL.M degree from the University of Jos and currently a Ph.D research student in the Faculty of law in the same University. He holds a proficiency certificate in Debt Recovery from the Institute of Debt Recovery Practitioners of Nigeria (Abuja). Egbaji has also acquired a National Diploma in Tourism at (upper credit level) from Plateau State Polytechnic (Jos) and has written two academic books in this field title Contemporary Perspective on Domestic & International Tourism & Tourism Development in Nigeria. He is married to Esther (a Nurse).',
       education: [
@@ -43,8 +43,7 @@ export default function TeamPage() {
     {
       id: '2',
       name: 'FELIX ELIJAH NNANNA ESQ',
-      title: 'Counsel in Chambers',
-      image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      title: '/images/felix.jpg',
       shortBio: 'LLB (Hons) BL, LLM',
       fullBio: 'Felix Elijah Nnanna Esq gained a degree in Law (LL.B) from the University of Uyo and a B.L from the Nigerian Law School Lagos. He has a Masters in Law as well from Bayero University Kano at distinction level. He has an uncommon analytical mind and a tremendous ability to understand and attend to complex legal instructions. He is effective in time and resources management with a dogged determination to excel in his chosen field of specialization particularly his interest in commercial law and general litigation. In his over 10 years in practice, He has been involved in various forms of court room litigation, debt recovery, corporate practice and consultancy services. He has also been involved in various forms of alternative dispute resolutions.',
       education: [
