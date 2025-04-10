@@ -57,7 +57,7 @@ export default function TeamPage() {
       id: '3',
       name: 'OCHIGBO GIDEON ALECHENU',
       title: 'Counsel in Chambers',
-      image: 'https://images.unsplash.com/photo-1559839734-2b71ea197ec2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      image: 'https://placehold.co/600x400?text=Hello+World',
       shortBio: 'LLB (Hons) BL, LLM',
       fullBio: 'Ochigbo Gideon Alechenu is a lawyer with an unwavering commitment to meeting and exceeding client\'s expectations. He is a prolific writer and has authored two books, namely, "The Law of Search, Bail and Detention in Nigeria; a Comparative Analysis in Honour of Senator Ameh Ebute", and \'Anatomy of the Offence of Criminal Breach of Trust\' in Honour of Dr. Paul Orhi, DG. NAFDAC" respectively. Ochigbo is driven by a determination to excel in his areas of expertise which include Company Law, Property Law, Criminal Law, Debt Recovery, Industrial Matters and General Legal Practice. Ochigbo is a great researcher.',
       education: [
@@ -74,8 +74,7 @@ export default function TeamPage() {
     {
       id: '4',
       name: 'JUDITH IDIGO',
-      title: 'Counsel in Chambers',
-      image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2076&q=80',
+      title: 'https://placehold.co/600x400?text=Hello+World',
       shortBio: 'LLB (Hons) BL, LLM',
       fullBio: 'Judith Idigo holds an LL.B Degree from Enugu State University and currently an LL.M student of the University of London. She has a keen interest in Telecommunication Law, Corporate Litigation, Debt Recovery and Banking Law, she has an uncommon analytical and a tremendous ability to understand and attend to complex task. She is effective in time and resource management with dogged determination to excel in law practice. She is a member of the Nigerian Bar Association, Unity Bar, Abuja.',
       education: [
@@ -87,7 +86,7 @@ export default function TeamPage() {
       id: '5',
       name: 'OKITADE OLUWADARE',
       title: 'Counsel in Chambers',
-      image: 'https://images.unsplash.com/photo-1556157382-97eda2d62296?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      image: 'https://placehold.co/600x400?text=Hello+World',
       shortBio: 'LLB (Hons) BL, LLM',
       fullBio: 'OKITADE OLUWADARE is a skilled attorney with experiences in litigation, corporate practice, real estate and property management. He is highly analytical and innovative with an ability to work under pressure. He received a degree in law (LL.B) from the Obafemi Awolowo University Ile Ife and a Bachelor of Law from the Nigerian Law School Lagos.',
       education: [
