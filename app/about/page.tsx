@@ -107,6 +107,16 @@ export default function AboutPage() {
                   style={{ objectFit: 'cover' }}
                 />
               </div>
+              <div className="flex items-center justify-center">
+                <div className="relative h-[300px] w-[300px] rounded-lg overflow-hidden shadow-xl">
+                  <Image 
+                    src="/images/law.jpg"
+                    alt="Office interior"
+                    fill
+                    style={{ objectFit: 'cover' }}
+                  />
+                </div>
+              </div>
             </div>
             <div className="flex flex-col justify-center space-y-8">
               <div className="bg-white p-8 rounded-lg shadow-md">
